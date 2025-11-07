@@ -31,7 +31,7 @@ Thực hiện cài đặt các thư viện cần thiết trước khi compile Mo
 ```
 root@waf:/usr/local/src/nginx# sudo apt install dpkg-dev
 root@waf:/usr/local/src/nginx# cd /usr/local/src/
-root@waf:/usr/local/src# apt install -y gcc make build-essential autoconf automake libtool libcurl4-openssl-dev liblua5.3-dev libfuzzy-dev ssdeep gettext pkg-config libpcre3 libpcre3-dev libxml2 libxml2-dev libcurl4 libgeoip-dev libyajl-dev doxygen
+root@waf:/usr/local/src# apt install -y gcc make build-essential autoconf automake libtool libcurl4-openssl-dev liblua5.3-dev libfuzzy-dev ssdeep gettext pkg-config libpcre3 libpcre3-dev libxml2 libxml2-dev libcurl4 libgeoip-dev libyajl-dev doxygen  libpcre2-dev
 ```
 
 Thực hiện clone từ github vào folder chứa source vừa tạo /usr/local/src/ModSecurity/
