@@ -1,0 +1,36 @@
+# Environment variables
+.env
+*.env
+!.env.example
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Database files
+*.sqlite
+*.db
+
+# Backups
+*.sql
+*.sql.gz
+*.dump
+backup_*.sql
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+temp/
