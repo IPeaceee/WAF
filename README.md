@@ -71,11 +71,11 @@ Truy cập UI: `http://<server-ip>:7000`
 
 ```yaml
 environment:
-  - SERVER_NAME=nhanlan.me
+  - SERVER_NAME=cybersys.blog
   - MULTISITE=yes
   - USE_REVERSE_PROXY=yes
   - REVERSE_PROXY_URL=/
-  - REVERSE_PROXY_HOST=https://nhanlan.me
+  - REVERSE_PROXY_HOST=https://cybersys.blog
 ```
 
 **Tùy chỉnh:**

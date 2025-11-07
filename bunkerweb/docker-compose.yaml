@@ -10,7 +10,7 @@ services:
     labels:
       - "bunkerweb.INSTANCE=yes"
     environment:
-      - SERVER_NAME=nhanlan.me
+      - SERVER_NAME=cybersys.blog
       - DATABASE_URI=mariadb+pymysql://bunkerweb:Passw0rd@bw-db:3306/db
       - AUTOCONF_MODE=yes
       - MULTISITE=yes
@@ -18,7 +18,7 @@ services:
       - UI_HOST=http://bw-ui:7000
       - USE_REVERSE_PROXY=yes
       - REVERSE_PROXY_URL=/
-      - REVERSE_PROXY_HOST=https://nhanlan.me
+      - REVERSE_PROXY_HOST=https://cybersys.blog
     networks:
       - bw-universe
       - bw-services
